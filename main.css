@@ -31,7 +31,7 @@ h1{
         grid-template-columns: repeat(13 , 1fr);
         grid-template-rows: repeat(30, 1.5rem);
         margin: 5px;
-        gap: 1px;  
+        gap: 1px;
     }
     
     .completo-calen{
@@ -58,24 +58,33 @@ h1{
     .lista-card-calen{
         font-size: 12px; 
     }
-}
-/* CALENDARIO */
-@media (max-width:480px) {
-    .iframe-calen{
-        width: 96vw;
+    .relative-calen{
+        position: relative;
+        width: 98vw;
+    } 
+    .posicion-calen{
+        position: absolute;
+        right: 200px;
+    } 
+    .posicion-calen-l{
+        position: absolute;
+        right: 50px;
     }
 }
-@media (max-width:1200px) {
-    .iframe-calen{
-        width: 96vw;
-    }
+.relative-calen{
+    position: relative;
+    width: 98vw;
+}    
+.posicion-calen{
+    position: absolute;
+    right: 200px;
 }
-.iframe-contenedor{
-    display: flex;
-    justify-content: center;
+.posicion-calen-l{
+    position: absolute;
+    left: 300px;
 }
 .container-calen{
-    width: 100vw;
+    width: 98vw;
 }
 
 .lista-card-calen{
@@ -194,11 +203,6 @@ h1{
     font-size: 20px;
 }
 
-.posicion-calen{
-    position: absolute;
-    right: 200px;
-    /* top: 50px; left: 60px; */
-}
 
 .selector-calen{
     display: none;
