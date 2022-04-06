@@ -17,7 +17,7 @@ h1{
 
 .grid-calen{
     display: grid;
-    grid-template-columns: 3fr repeat(12 , 1fr);
+    grid-template-columns: 2fr repeat(13 , 1fr);
     grid-template-rows: repeat(30, 25px);
     margin: 20px;
     align-items: center;
@@ -28,7 +28,7 @@ h1{
 @media (max-width:480px)  {
     .grid-calen{
         display: grid;
-        grid-template-columns: repeat(13 , 1fr);
+        grid-template-columns: repeat(14 , 1fr);
         grid-template-rows: repeat(30, 1.5rem);
         margin: 5px;
         gap: 1px;
